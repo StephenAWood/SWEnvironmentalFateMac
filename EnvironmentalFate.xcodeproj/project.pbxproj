@@ -13,6 +13,8 @@
 		AFA4A5751AF6DF0800213E6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA4A5741AF6DF0800213E6C /* Images.xcassets */; };
 		AFA4A5781AF6DF0800213E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA4A5761AF6DF0800213E6C /* Main.storyboard */; };
 		AFA4A5841AF6DF0800213E6C /* EnvironmentalFateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA4A5831AF6DF0800213E6C /* EnvironmentalFateTests.m */; };
+		AFA4A58F1AF6E0C500213E6C /* FateLevelOne.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA4A58E1AF6E0C500213E6C /* FateLevelOne.m */; };
+		AFA4A5931AF6E1A000213E6C /* Chemical.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA4A5921AF6E1A000213E6C /* Chemical.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,10 @@
 		AFA4A57D1AF6DF0800213E6C /* EnvironmentalFateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvironmentalFateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA4A5821AF6DF0800213E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFA4A5831AF6DF0800213E6C /* EnvironmentalFateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnvironmentalFateTests.m; sourceTree = "<group>"; };
+		AFA4A58D1AF6E0C500213E6C /* FateLevelOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FateLevelOne.h; path = Model/FateLevelOne.h; sourceTree = "<group>"; };
+		AFA4A58E1AF6E0C500213E6C /* FateLevelOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FateLevelOne.m; path = Model/FateLevelOne.m; sourceTree = "<group>"; };
+		AFA4A5911AF6E1A000213E6C /* Chemical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chemical.h; path = Model/Chemical.h; sourceTree = "<group>"; };
+		AFA4A5921AF6E1A000213E6C /* Chemical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Chemical.m; path = Model/Chemical.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 				AFA4A5721AF6DF0800213E6C /* ViewController.m */,
 				AFA4A5741AF6DF0800213E6C /* Images.xcassets */,
 				AFA4A5761AF6DF0800213E6C /* Main.storyboard */,
+				AFA4A5901AF6E0CE00213E6C /* Model */,
 				AFA4A56A1AF6DF0800213E6C /* Supporting Files */,
 			);
 			path = EnvironmentalFate;
@@ -114,6 +121,17 @@
 				AFA4A5821AF6DF0800213E6C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFA4A5901AF6E0CE00213E6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFA4A58D1AF6E0C500213E6C /* FateLevelOne.h */,
+				AFA4A5911AF6E1A000213E6C /* Chemical.h */,
+				AFA4A5921AF6E1A000213E6C /* Chemical.m */,
+				AFA4A58E1AF6E0C500213E6C /* FateLevelOne.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +236,8 @@
 				AFA4A5731AF6DF0800213E6C /* ViewController.m in Sources */,
 				AFA4A5701AF6DF0800213E6C /* main.m in Sources */,
 				AFA4A56E1AF6DF0800213E6C /* AppDelegate.m in Sources */,
+				AFA4A5931AF6E1A000213E6C /* Chemical.m in Sources */,
+				AFA4A58F1AF6E0C500213E6C /* FateLevelOne.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
